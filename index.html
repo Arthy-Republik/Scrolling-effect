@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio Arthur</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div data-scroll-container>
+      <section class="section py" data-scroll-section>
+        <h2 data-scroll data-scroll-speed="4" data-scroll-positoin="top">
+        ARTHUR BROUSSOUX
+        </h2>
+        <p
+          data-scroll
+          data-scroll-speed="-4"
+          data-scroll-direction="horizontal"
+        >
+         scroll down
+        </p>
+      </section>
+      <section id="gallery" data-scroll-section>
+        <div class="grid">
+          <div class="img">
+            <img src="./img/1.jpg" alt="" />
+            <img src="./img/2.jpg" alt="" />
+            <img src="./img/3.jpg" alt="" />
+            <img src="./img/4.jpg" alt="" />
+          </div>
+
+          <div>
+            <img
+              src="./img/run.jpg"
+              data-scroll
+              data-scroll-sticky
+              data-scroll-target="#gallery"
+              data-scroll-speed="1.2"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="threeD" id="threeD" data-scroll-section >
+        <h3 class="skills-h3">
+          <span data-scroll data-scroll-repeat data-scroll-speed="5">S</span>
+          <span data-scroll data-scroll-repeat data-scroll-speed="2">K</span>
+          <span data-scroll data-scroll-repeat data-scroll-speed="3">I</span>
+          <span data-scroll data-scroll-repeat data-scroll-speed="5">L</span>
+          <span data-scroll data-scroll-repeat data-scroll-speed="2">L</span>
+          <span data-scroll data-scroll-repeat data-scroll-speed="4">S</span>
+        </h3>
+        <div class="skewsec">
+          <span data-scroll 
+            data-scroll-direction="horizontal" 
+            data-scroll-speed="20"
+            data-scroll-target="#threeD"
+            >HTML--SASS--REACT--JAVASCRIPT</span>
+        </div>
+        <div class="skewsec">
+          <span data-scroll 
+          data-scroll-direction="horizontal" 
+          data-scroll-speed="-20"
+          data-scroll-target="#threeD">WORDPRESS--PHP--SYMFONY</span>
+        </div>
+      </section>
+      <section data-scroll-section>
+      <div class="container-content about" id="about">
+        <div class="about-content">
+            <div class="about-heading"  data-scroll data-scroll-speed="3">
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="about-description"  data-scroll data-scroll-speed="3">
+            <p> <span>Hey</span>, i m Arthur a French freelance developer, currently living in
+              FRANCE. <br>Always in love with code and design, i like to learn new things every day and challenge myself with
+              new projects and ideas.
+                </p>
+            </div>
+            <div class="about-image">
+                <div class="image"></div>
+            </div>
+        </div>
+    </div>
+  </section>
+      <section class="subs" data-scroll-section>
+        <h2 data-scroll data-scroll-repeat>
+          <span data-scroll data-scroll-delay="0.15" data-scroll-speed="8"
+            >C</span
+          >
+          <span data-scroll data-scroll-delay="0.095" data-scroll-speed="8"
+            >O</span
+          >
+          <span data-scroll data-scroll-delay="0.085" data-scroll-speed="10"
+            >N</span
+          >
+          <span data-scroll data-scroll-delay="0.075" data-scroll-speed="5"
+            >T</span
+          >
+          <span data-scroll data-scroll-delay="0.065" data-scroll-speed="8"
+            >A</span
+          >
+          <span data-scroll data-scroll-delay="0.055" data-scroll-speed="4"
+            >C</span
+          >
+          <span data-scroll data-scroll-delay="0.045" data-scroll-speed="10"
+            >T</span
+          >
+      
+        </h2>
+      </section>
+      <div class="footer" data-scroll-section>
+        <h4 data-scroll data-scroll-speed="4" data-scroll-position="bottom">
+        Code Save The Queen
+        </h4>
+      </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
